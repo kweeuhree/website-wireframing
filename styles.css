@@ -1,0 +1,103 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.nav-bar {
+    border: 1px solid rgb(124, 112, 198);
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    width: 100vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.nav-bar-left, .nav-bar-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1vw;
+}
+
+.logo-div img {
+    width: 4vw;
+    border-radius: 50%;
+}
+
+.user-image {
+    font-size: 1.5vw;
+}
+
+main {
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caption {
+    position: relative;
+    font-size: 3vw;
+    font-weight: 600;
+    color: rgb(78, 137, 255);
+}
+
+.btns-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    margin: 2em;
+    background-color: aliceblue;
+    width: 100vw;
+    padding: 2vw;
+}
+
+.btns-div button {
+    border: none;
+    padding: 2em;
+    font-size: 1.5vw;
+    background-color: rgba(178, 201, 248, 0.502);
+    transition: 0.2s;
+}
+
+.btns-div button:hover {
+    background-color: rgba(150, 183, 249, 0.502);
+    transition: 0.2s;
+}
+
+.info-section {
+    display: flex;
+    margin: 1em;
+    flex-direction: column;
+    width: 80vw;
+}
+
+.information {
+    background-color: rgba(178, 201, 248, 0.502);
+    border: 1px solid rgb(124, 112, 198);
+    margin: 1vw;
+    padding: 2vw;
+    display: flex;
+    gap: 60%;
+}
+
+.information p {
+    font-size: 1vw;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.recommendation {
+    font-size: 2vw;
+}
+
+
